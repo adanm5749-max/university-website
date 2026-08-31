@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+ <nav class="navbar">
+
+<div class="logo">
+My University
+</div>
+
+<ul class="nav-links" id="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#courses">Courses</a></li>
+
+
+<li><a href="#contact">Contact</a></li>
+
+
+</ul>
+
+
+
+<button  class="menu-btn" onclick="toggleMenu()">☰</button>
+
+ </nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Our University</h1>
+        <p>Learn and Grow with us</p>
+        <a href="#courses" class="hero-btn">Explore Now</a>
+    </div>
+</section>
+    
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="img/6.png.jpg" alt="University Campus">
+    </div>
+
+    <div class="about-content">
+        <h2>About Our University</h2>
+
+        <p>
+            We provide quality education for a better future.
+            Our university offers a friendly learning environment,
+            modern facilities and experienced teachers.
+        </p>
+
+        <a href="#courses" class="about-btn">Learn More</a>
+    </div>
+
+</section>
+
+
+<section class="Courses">
+
+<h1>Our Courses</h1>
+        <div>
+<h2> Computer Science</h2>
+<p> Learning Progamming And Tchnology</p>
+
+
+        </div>
+
+
+<div>
+<h2>Business</h2>
+<p>Learn business And management</p>
+
+</div>
+
+
+<div>
+<h2>Engineering</h2>
+<p>Build Your Future With Engineering</p>
+
+
+</div>
+
+
+</section>
+
+
+
+<section class="courses" id="courses">
+
+    <h2>Our Courses</h2>
+
+    <div class="course-box">
+
+        <div class="course-card">
+            <h3>Computer Science</h3>
+            <p>Learn Programming, AI and Modern Technology.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Business</h3>
+            <p>Learn Business Management and Entrepreneurship.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Engineering</h3>
+            <p>Build Your Future with Engineering.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Campus Gallery -->
+
+<section class="campus" id="campus">
+
+    <h2>Our Campus</h2>
+    <p>Explore our beautiful university campus.</p>
+
+    <div class="campus-box">
+
+        <div class="campus-card">
+            <img src="img/1.png.jpg" alt="Campus 1">
+        </div>
+
+        <div class="campus-card">
+            <img src="img/2.png.jpg" alt="Campus 2">
+        </div>
+
+        <div class="campus-card">
+            <img src="img/3.png.jpg" alt="Campus 3">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact" class="contact"">
+
+    <h2>Contact Us</h2>
+
+    <p>Have any questions? We'd love to hear from you.</p>
+
+    <div class="contact-box">
+
+        <div class="contact-info">
+            <h3>My University</h3>
+            <p>📍 Karachi, Pakistan</p>
+            <p>📞 +92 3012987765</p>
+            <p>✉️ info@myuniversity.com</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+</section>
+
+
+
+
+<footer class="footer">
+    <p>© 2026 My University. All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+</body>
+</html>
